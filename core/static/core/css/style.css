@@ -424,7 +424,7 @@ input[type=text], select, textarea {
 input[type=submit] {
   background-color: #0563bb;
   color: white;
-  padding: 12px 248px;
+  padding: 12px 50px;
   border: none;
   cursor: pointer;
 }
@@ -461,5 +461,8 @@ input[type=submit]:hover {
   .xcolumn, input[type=submit] {
     width: 100%;
     margin-top: 0;
+  }
+  .xcolumn {
+    left: 0%;
   }
 }
