@@ -1,2 +1,2 @@
 ﻿# abdussalamWeb
-abdussalam.herokuapp.com
+https://abdussalam.herokuapp.com
