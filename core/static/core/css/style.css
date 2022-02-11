@@ -88,25 +88,23 @@ h3{
 
 
 #intro {
-  margin-top: 150px;
-  margin-left: 250px;
-  margin-right: 500px;
+display: flex;
+flex-direction: column;
+  margin-top: -150px;
+  margin-left: 10px;
+  margin-right: 800px;
+  justify-content:center;
+  display: inline;
 }
 
-@media screen and (max-width=400px){
-  #person11 {
-    display: none;
-    content: none;
-  }
+.person {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  
 }
-#person1 {
+#person1{
   text-align: right;
-}
-
-#person11 {
-  width: 400px;
-  height: 600px;
-  align-content: center;
 }
 
 #background {
