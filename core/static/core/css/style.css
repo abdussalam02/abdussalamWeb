@@ -85,10 +85,28 @@ h3{
     margin-bottom:0px;
 }
 
+
+
 #intro {
   margin-top: 150px;
   margin-left: 250px;
   margin-right: 500px;
+}
+
+@media screen and (max-width=400px){
+  #person11 {
+    display: none;
+    content: none;
+  }
+}
+#person1 {
+  text-align: right;
+}
+
+#person11 {
+  width: 400px;
+  height: 600px;
+  align-content: center;
 }
 
 #background {
