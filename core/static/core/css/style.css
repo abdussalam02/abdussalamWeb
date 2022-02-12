@@ -226,7 +226,26 @@ section {
 # Home
 --------------------------------------------------------------*/
 
+#person{
+  display: flex;
+  max-width: 80%;
+  width: 600px;
+  height: auto;
+  
+}
+#person{float:right;margin-right:15px}
 
+#intro{
+  margin-left:10em;
+  margin-top: 8em;
+  max-width: 40%;
+  
+}
+@media screen and (max-width:500px ){
+  #intro{
+    display: inline;
+  }
+}
 
 
 
@@ -234,7 +253,15 @@ section {
 # About
 --------------------------------------------------------------*/
 
+#person1{float:right;
+  margin-right:15px;
 
+}
+@media screen and (max-width:500px ){
+  #person1{
+    display: none;
+  }
+}
 
 
 
