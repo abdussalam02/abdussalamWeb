@@ -77,7 +77,7 @@ h3{
 }
 
 
-@media screen and (max-height:900px ) {
+@media screen and (min-width:992px ) {
   #credit {
     margin-top: 10em;
   }
@@ -243,7 +243,7 @@ section {
   
 }
 
-@media screen and (max-width:500px ){
+@media screen and (max-width:600px ){
   #intro{
     display: inline;
   }
@@ -283,6 +283,12 @@ section {
   position: absolute;
 }
 
+@media screen and (min-width:992px) {
+  #person1 {
+    width: 35%;
+  }
+}
+
 @media screen and (max-width:500px ){
   #person1{
     display: none;
@@ -307,8 +313,8 @@ section {
 # Resume
 --------------------------------------------------------------*/
 
-@media only screen and (max-width: 414px) {
-  .container {
+@media screen and (max-width: 500px) {
+  .resume {
   margin: 5px;
   }
 }
