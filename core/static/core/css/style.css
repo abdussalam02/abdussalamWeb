@@ -76,10 +76,16 @@ h3{
   padding-left: 7px;
 }
 
+
+@media screen and (max-height:900px ) {
+  #credit {
+    margin-top: 10em;
+  }
+}
+
 #credit {
-  font-size: 14px;
-  margin-top: 93%;
-  margin-bottom: 15px;
+  font-size: 15px;
+  margin-top: 12em;
 }
 
 #credit i:hover {
@@ -236,6 +242,7 @@ section {
   max-width: 40%;
   
 }
+
 @media screen and (max-width:500px ){
   #intro{
     display: inline;
