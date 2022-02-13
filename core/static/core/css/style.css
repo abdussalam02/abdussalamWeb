@@ -77,9 +77,9 @@ h3{
 }
 
 
-@media screen and (min-width:992px ) {
+@media screen and (max-width:992px ) {
   #credit {
-    margin-top: 8.5em;
+    margin-top: 10em;
   }
 }
 
@@ -234,7 +234,10 @@ section {
   height: auto;
   
 }
-#person{float:right;margin-right:15px}
+#person{
+  float:right;
+  margin-right:15px
+}
 
 #intro{
   margin-left:10em;
@@ -283,7 +286,7 @@ section {
   position: absolute;
 }
 
-@media screen and (min-width:992px) {
+@media screen and (max-width:992px) {
   #person1 {
     width: 30%;
   }
