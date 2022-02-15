@@ -76,21 +76,15 @@ h3{
   padding-left: 7px;
 }
 
-
-@media screen and (max-width:992px ) {
-  #credit {
-    margin-top: 10em;
-  }
-}
-
 #credit {
   font-size: 15px;
-  margin-top: 12em;
+  margin-top: 180px;
 }
 
 #credit i:hover {
   color: #8b0000;
 }
+
 
 /* Animations */
 
@@ -246,7 +240,7 @@ section {
   
 }
 
-@media screen and (max-width:600px ){
+@media screen and (min-width:360px) and (max-width:640px ){
   #intro{
     display: inline;
   }
@@ -261,7 +255,7 @@ section {
 #person1{
   float:right;
   width: 38%;
-  margin-left: 10px;
+  margin-left: 30px;
   margin-right: 30px;
 }
 
@@ -274,7 +268,7 @@ section {
 }
 
 .tbox {
-  padding: 50px;
+  padding: 4em;
 }
 
 .about .section-title {
@@ -286,20 +280,12 @@ section {
   position: absolute;
 }
 
-@media screen and (max-width:992px) {
-  #person1 {
-    width: 30%;
-  }
-}
-
-@media screen and (max-width:500px ){
+@media screen and (min-width:360px) and (max-width:640px) {
   #person1{
     display: none;
   }
   .boxed{
-    padding-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 10px;
   }
   .tbox {
     padding: 5px 10px 5px 10px;
@@ -316,14 +302,14 @@ section {
 # Resume
 --------------------------------------------------------------*/
 
-@media screen and (max-width: 500px) {
+.resume {
+  margin: 20px;
+}
+
+@media screen and (min-width:360px) and (max-width:640px) {
   .resume {
   margin: 5px;
   }
-}
-
-.resume {
-  margin: 20px;
 }
 
 .resume .resume-title {
