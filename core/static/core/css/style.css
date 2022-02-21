@@ -73,7 +73,7 @@ h3{
 }
 
 #credit {
-  margin-top: 11em;
+  margin-top: 82%;
 }
 
 #credit i{
@@ -229,7 +229,7 @@ section {
 }
 #person{
   float:right;
-  margin-right:15px
+  margin-right:15px;
 }
 
 #intro{
@@ -297,7 +297,7 @@ section {
     padding: 5em;
   }
   #credit {
-    margin-top: 21em;
+    margin-top: 100%;
   }
 }
 
