@@ -30,11 +30,6 @@ h3{
 /*--------------------------------------------------------------
 # Sidebar and Navbar
 --------------------------------------------------------------*/
-#sidenav {
-  position: fixed;
-  z-index: 1;
-  overflow-x: hidden;
-}
 
 .navbar-brand {
   align-items: center;
@@ -72,13 +67,14 @@ h3{
   color: #6d5a5a;
 }
 
-#social-media a{
+#social-media i{
+  font-size: 1.15em;
   padding-left: 7px;
 }
 
 #credit {
   font-size: 15px;
-  margin-top: 180px;
+  margin-top: 11em;
 }
 
 #credit i:hover {
@@ -280,7 +276,26 @@ section {
   position: absolute;
 }
 
-@media screen and (min-width:360px) and (max-width:640px) {
+@media screen and (min-width:1710px) and (max-width:1920px) {
+  #person1 {
+    width: 25%;
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .tbox {
+    padding: 5em;
+  }
+}
+
+
+@media screen and (min-width:1480px) and (max-width:1700px) {
+  #person1 {
+    width: 30%;
+  }
+}
+
+
+@media screen and (min-width:360px) and (max-width:1000px) {
   #person1{
     display: none;
   }
@@ -296,6 +311,7 @@ section {
     margin-bottom: 4em;
   }
 }
+
 
 
 /*--------------------------------------------------------------
