@@ -73,8 +73,11 @@ h3{
 }
 
 #credit {
-  font-size: 15px;
   margin-top: 11em;
+}
+
+#credit i{
+  font-size: 1em;
 }
 
 #credit i:hover {
